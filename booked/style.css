@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(221, 221, 221);
+}
+
+nav{
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(25, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+height: 70px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px 100px 200px;
+    font-size :30px;
+}
+
+.ticket{
+    height: 300px;
+}
+
+.back{
+    position: absolute;
+    top: 20px;
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .fa-arrow-left{
+    padding: 0 10px 0 10px;
+  }
